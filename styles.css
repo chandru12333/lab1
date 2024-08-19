@@ -1,0 +1,105 @@
+/* General Body Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background for the entire page */
+}
+
+/* Header Styles */
+header {
+    background: #005f73; /* Dark teal background */
+    color: #e0fbfc; /* Light teal text color */
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em; /* Slightly larger font size for the heading */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #e0fbfc; /* Light teal color for links */
+    text-decoration: none;
+    font-weight: bold; /* Bold links for better visibility */
+}
+
+nav ul li a:hover {
+    color: #94d2bd; /* Light greenish-teal color on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    background-color: #ffffff; /* White background for main content */
+    border-radius: 8px; /* Rounded corners for main content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin: 20px auto; /* Center the main content with some margin */
+    max-width: 1200px; /* Maximum width for larger screens */
+}
+
+/* Footer Styles */
+footer {
+    background: #005f73; /* Dark teal background */
+    color: #e0fbfc; /* Light teal text color */
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Shadow to separate from content */
+}
+
+/* Form Styles */
+form {
+    max-width: 400px; /* Increased max-width for form */
+    margin: 20px auto; /* Centered with top and bottom margin */
+    padding: 20px;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the form */
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold; /* Bold labels for better readability */
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+}
+
+form input:focus, form select:focus, form button:focus {
+    border-color: #005f73; /* Dark teal border on focus */
+    outline: none; /* Remove default outline */
+}
+
+form button {
+    background-color: #007f5f; /* Teal button background */
+    color: #ffffff; /* White text color for the button */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor for buttons */
+    font-size: 1em; /* Adjust font size */
+}
+
+form button:hover {
+    background-color: #005f73; /* Darker teal on hover */
+}
